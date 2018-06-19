@@ -5,7 +5,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class TriangleShell {
 
 	// 1. Create a new Robot
-
+	Robot steve = new Robot();
 	
 	void go() {
 		drawTriangle(100); // 3. delete this line (used only for testing)
@@ -23,16 +23,15 @@ public class TriangleShell {
 			// 5. call your drawTriangle() method using your length variable
 	
 			// 10. Turn the robot 6 degrees to the right
-
 	}
 
 	/* 2. fill in the method below to draw a triangle. Use the length variable when you call move(). */
 	private void drawTriangle(int length) {
-		
-		
-		
+	for(int i=0;i<4;i++) {	
+		steve.move(length);
+		steve.turn(120);
 	}
-
+	}
 	
 	public static void main(String[] args) {
 		new TriangleShell().go();
