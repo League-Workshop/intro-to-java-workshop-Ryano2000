@@ -13,7 +13,7 @@ speak("spell mandlebrot");
 		// 2. Catch the user's answer in a String
 String Answer = JOptionPane.showInputDialog("Spell word");
 		// 3. If the user spelled the word correctly, speak "correct"
-If()
+
 		// 4. Otherwise say "wrong"
 
 		// 5. repeat the process for other words
